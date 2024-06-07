@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed on your machine:
 **Step-by-Step Installation Guide**
 
 Step 1: Download the Dataset - You have two options to get the necessary dataset for the project:
-Option 1: Download from the Provided Link: https://archive.ics.uci.edu/dataset/53/iris
+Option 1: Download from the Provided Link: https://archive.ics.uci.edu/dataset/53/iris; 
 Option 2: Download the following files from this Repository: index, iris.data, iris.names, bezdekIris.data
 
 Step 2: Set Up the Project - Create a new directory on your local machine for the project.
