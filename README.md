@@ -60,6 +60,19 @@ The above image explains the three types of Machine Learning Models:-
 
 ![ML Application Examples](https://miro.medium.com/v2/resize:fit:2796/format:webp/1*FUZS9K4JPqzfXDcC83BQTw.png)
 
+## Libraries Used
+1. Pandas - Used for analyzing, cleaning, exploring, and manipulating data sets.
+2. Numpy - Used for working with arrays and other computational tasks. It also has functions for working in the domains of linear algebra, fourier transform, and matrices.
+3. Plotly - Used for data visualization and supports various graphs like line charts, scatter plots, bar charts, histograms, area plots, etc. Plotly produces interactive graphs, can be embedded on websites, and provides a wide variety of complex plotting options. Plotly Express is a terse, consistent, high-level API for creating figures. It is basically a wrapper of Plotly. Plotly’s `plotly.offline` allows you to generate graphs offline and save them in local machine.
+4. Cufflinks - Used to bind Pandas and Plotly together so that we can use Plotly in Pandas.
+5. Matplotlib - Matplotlib is a popular plotting library in Python used for creating high-quality visualizations and graphs. It offers various tools to generate diverse plots, facilitating data analysis, exploration, and presentation. `matplot.pyplot` is a collection of methods within matplotlib which allows user to construct 2D plots easily and interactively.
+6. Scikit-learn (sklearn) - Contains a lot of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction.
+7. GraphViz: This is an open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks.
+8. OS: The OS comes under Python's standard utility modules. This module offers a portable way of using operating system dependent functionality. The Python OS module lets us work with the files and directories.
+
+> NOTE: `%matplotlib` is a magic function in IPython. IPython has a set of predefined ‘magic functions’ that you can call with a command line style syntax. There are two kinds of magics, line-oriented and cell-oriented. Line magics are prefixed with the % character and work much like OS command-line calls: they get as an argument the rest of the line, where arguments are passed without parentheses or quotes. Lines magics can return results and can be used in the right hand side of an assignment. Cell magics are prefixed with a double %%, and they are functions that get as an argument not only the rest of the line, but also the lines below it in a separate argument.
+`%matplotlib inline` sets the backend of matplotlib to the 'inline' backend. With this backend, the output of plotting commands is displayed inline within frontends like the Jupyter notebook, directly below the code cell that produced it. The resulting plots will then also be stored in the notebook document.
+
 ## Procedure Followed
 After importing the dataset, we visualise it using *matplotlib* in various ways to properly understand what is going on. 
 
@@ -74,16 +87,3 @@ The next step is to preprocess the dataset to get it ready for our project. A de
 After preprocessing, we split the dataset into training and testing datasets. Then we get an idea of the predictions by visualising using a decision tree. We will follow the same procedure for the other two algorithms. 
 
 Once the dataset is split, we train the model, test it and visualise the decision tree. We can also predict outputs for random inputs.
-
-## Libraries Used
-1. Pandas - Used for analyzing, cleaning, exploring, and manipulating data sets.
-2. Numpy - Used for working with arrays and other computational tasks. It also has functions for working in the domains of linear algebra, fourier transform, and matrices.
-3. Plotly - Used for data visualization and supports various graphs like line charts, scatter plots, bar charts, histograms, area plots, etc. Plotly produces interactive graphs, can be embedded on websites, and provides a wide variety of complex plotting options. Plotly Express is a terse, consistent, high-level API for creating figures. It is basically a wrapper of Plotly. Plotly’s `plotly.offline` allows you to generate graphs offline and save them in local machine.
-4. Cufflinks - Used to bind Pandas and Plotly together so that we can use Plotly in Pandas.
-5. Matplotlib - Matplotlib is a popular plotting library in Python used for creating high-quality visualizations and graphs. It offers various tools to generate diverse plots, facilitating data analysis, exploration, and presentation. `matplot.pyplot` is a collection of methods within matplotlib which allows user to construct 2D plots easily and interactively.
-6. Scikit-learn (sklearn) - Contains a lot of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction.
-7. GraphViz: This is an open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks.
-8. OS: The OS comes under Python's standard utility modules. This module offers a portable way of using operating system dependent functionality. The Python OS module lets us work with the files and directories.
-
-> NOTE: `%matplotlib` is a magic function in IPython. IPython has a set of predefined ‘magic functions’ that you can call with a command line style syntax. There are two kinds of magics, line-oriented and cell-oriented. Line magics are prefixed with the % character and work much like OS command-line calls: they get as an argument the rest of the line, where arguments are passed without parentheses or quotes. Lines magics can return results and can be used in the right hand side of an assignment. Cell magics are prefixed with a double %%, and they are functions that get as an argument not only the rest of the line, but also the lines below it in a separate argument.
-`%matplotlib inline` sets the backend of matplotlib to the 'inline' backend. With this backend, the output of plotting commands is displayed inline within frontends like the Jupyter notebook, directly below the code cell that produced it. The resulting plots will then also be stored in the notebook document.
