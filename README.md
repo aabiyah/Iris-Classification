@@ -8,7 +8,38 @@ This is a classification problem wherein we classify irises into one of three cl
 
 ![Iris Classification](https://editor.analyticsvidhya.com/uploads/51518iris%20img1.png)
 
-# A Note on Machine Learning Techniques
+## Installation Guide
+
+Welcome to the Iris Classification project! This guide will walk you through the steps to set up and run the project on your local machine. Follow the instructions below to get started with classifying iris flowers using machine learning techniques.
+
+**Prerequisites**
+
+Before you begin, ensure you have the following installed on your machine:
+
+1. Python (version 3.6 or later)
+2. Jupyter Notebook
+3. Git (optional, for cloning the repository)
+   
+**Step-by-Step Installation Guide**
+
+Step 1: Download the Dataset
+You have two options to get the necessary dataset for the project:
+
+Option 1: Download from the Provided Link: https://archive.ics.uci.edu/dataset/53/iris
+Option 2: Download the following files from this Repository: index, iris.data, iris.names, bezdekIris.data
+
+Step 2: Set Up the Project
+Create a new directory on your local machine for the project.
+Place the downloaded files (index, iris.data, iris.names, bezdekIris.data) into this directory.
+
+Step 3: Clone the Repository (Optional)
+If you prefer, you can clone the entire repository to your local machine using `git clone https://github.com/yourusername/iris-classification.git` in your terminal or command prompt and navigate to the cloned directory using `cd iris-classification`. This step is optional and can be skipped if you have already downloaded the necessary files.
+
+Step 4: Install Required Libraries and Run the Project
+In the Jupyter Notebook interface, install the necessary libraries, and navigate to the directory where you placed the files and open the IrisClassification.ipynb file. Run the notebook cells sequentially to execute the code and perform iris classification.
+
+
+# A Note on Machine Learning Techniques 
 ![ML Techniques](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/03/Types-of-Machine-Learning-Waht-is-Machine-Learning-Edureka-2.png)
 The above image explains the three types of Machine Learning Models:-
 
