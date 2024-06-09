@@ -35,7 +35,11 @@ Step 4: Install Required Libraries and Run the Project - In the Jupyter Notebook
 
 
 # A Note on Machine Learning Techniques 
+![ML Application Examples](https://miro.medium.com/v2/resize:fit:2796/format:webp/1*FUZS9K4JPqzfXDcC83BQTw.png)
+
 ![ML Techniques](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/03/Types-of-Machine-Learning-Waht-is-Machine-Learning-Edureka-2.png)
+
+
 The above image explains the three types of Machine Learning Models:-
 
 1. **Supervised Learning:** This includes regression and classification. The following models are used for each-
@@ -57,8 +61,6 @@ The above image explains the three types of Machine Learning Models:-
   
 
 3. **Reinforcement Learning**
-
-![ML Application Examples](https://miro.medium.com/v2/resize:fit:2796/format:webp/1*FUZS9K4JPqzfXDcC83BQTw.png)
 
 ## Libraries Used
 1. Pandas - Used for analyzing, cleaning, exploring, and manipulating data sets.
