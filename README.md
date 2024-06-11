@@ -2,6 +2,7 @@
 
 This project is based on Iris Flower Classification based on three Machine Learning methods, i.e., **Decision Tree** (a supervised learning regression and classification model), **K-Nearest Neighbor** (a supervised learning classification model), and **K-Means Clustering** (an unsupervised learning clustering model for continuous data).
 
+
 ## Problem Statement and Dataset
 
 This is a classification problem wherein we classify irises into one of three classes - Iris Setosa, Iris Versicolour, and Iris Virginica - based on four attributes. These factors are sepal length, sepal width, petal length, and petal width. The data set used includes 50 instances of each of the three iris classes for a total of 150 instances. While one of the classes is linearly separable, the other two are not. The dataset used is: https://archive.ics.uci.edu/dataset/53/iris.
@@ -84,8 +85,10 @@ The next step is to preprocess the dataset to get it ready for our project. A de
 
 > (i) Label Encoding: Converting labels into numerical form so that it is understood by the machine learning model. In this project, the labels , 'Iris-setosa', 'Iris-versicolor', and 'Iris-virginica', have been converted to 0, 1, and 2 respectively. Similarly, the labels for _x_ have been discarded and the table has been replaced by a numpy array.
 > (ii) One-Hot Encoding: With one-hot, we convert each categorical value into a new categorical column and assign a binary value of 1 or 0 to those columns. Each integer value is represented as a binary vector. For example, the labels , 'Iris-setosa', 'Iris-versicolor', and 'Iris-virginica', can be converted to [1, 0, 0], [0, 1, 0], and [0, 0, 1] respectively. We are not using one-hot encoding in this project. Label Encoding is suitable when there is an intrinsic order in the categories, whereas One-Hot Encoding is better for nominal categories, i.e., if there is no inherent order or ranking to the categorical data, OneHotEncoder is more appropriate, while LabelEncoder is appropriate when the categorical data has an inherent order or ranking.
-> (iii) Standard Scalar: 
+> (iii) Standard Scalar: StandardScaler removes the mean and scales each feature/variable to unit variance. This operation is performed feature-wise in an independent way. StandardScaler can be influenced by outliers (if they exist in the dataset) since it involves the estimation of the empirical mean and standard deviation of each feature. It is used to standardize a dataset (eg: if some attributes are in 'km' and others in 'cm', we need to reach a middleground to be able to calculate accurately).
 
 After preprocessing, we split the dataset into training and testing datasets. Then we get an idea of the predictions by visualising using a decision tree. We will follow the same procedure for the other two algorithms. 
 
 Once the dataset is split, we train the model, test it and visualise the decision tree. We can also predict outputs for random inputs.
+
+2. K-Nearest Neighbors - This algorithm requires us to use Standard Scalar to standardize values of the input for accurate outcomes (otherwise, the result is always the last labelled class. After applying the algorithm, we construct a graph for values of 'k' and accuracy and then choose the value that would give the highest accuracy.
