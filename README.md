@@ -92,3 +92,5 @@ After preprocessing, we split the dataset into training and testing datasets. Th
 Once the dataset is split, we train the model, test it and visualise the decision tree. We can also predict outputs for random inputs.
 
 2. K-Nearest Neighbors - This algorithm requires us to use Standard Scalar to standardize values of the input for accurate outcomes (otherwise, the result is always the last labelled class. After applying the algorithm, we construct a graph for values of 'k' and accuracy and then choose the value that would give the highest accuracy.
+
+3. K-Means Clustering - Since unsupervised learning has no labels, we do not use `x_train`, `x_test`, `y_train`, `y_test`. We use the entire dataset `x` for training. Here, we do not know how many clusters are there (i.e., we do not know what is `y`). The code initializes a KMeans clustering model with 3 clusters and fits it to the dataset x. It retrieves the cluster centers and the labels assigned to each data point by the KMeans model. It predicts the cluster label for a new data point x_km and prints the corresponding species name from the Category list based on the prediction.
